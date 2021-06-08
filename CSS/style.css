@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap')
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Do Hyeon', sans-serif;
+}
+#outer{
+	width: 100%;
+}
+.container{
+	width: 100%;
+	margin: 0;
+}
+.header{
+	width: 100%;
+	height: 40px;
+	padding: 20px 0;
+	background: rgba(0,0,0,1.00);
+	
+}
+.logo{
+	width: 30%;
+	float: left
+}
+.logo img{
+	width: 20%;
+}
+.menu{
+	width: 100%;
+	height: 40px;
+	line-height: 40px
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	margin: 0 40px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #d2b48c;
+	font-size: 15px;
+	
+}
+.menu ul li a:hover{
+	color:aqua;
+	opacity: 50;
+}
+.banner{
+	width: 100%;
+	background-image: url("../img/blurred1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.img-banner{
+	width: 80%;
+	display:inline-block;
+	background-size: 100%;
+	margin-left: 150px;
+	
+}
+.main{
+	width: 50%;
+	padding: 30px 0;
+	
+}
+.text-box{
+	font-size: 20px;
+	font-family: Fira Sans;
+	display: inline-block;
+}
+.text-box a{
+	color: aqua;
+}
+.text-box a:hover{
+	color:orange;
+	font-size: 30px;
+}
+.text-box p:hover{
+	color: aqua;
+}
+.text-box
+.img-main1{
+	width: 50%;
+	color:red;
+	display: inline-block;
+	left: -5px;
+}
+.img-main1{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	padding: 20px 0;
+	background: rgba(0,0,0,1.00);
+	
+	
+}
+.logo1{
+	width: 40%;
+	float: left
+}
+.footer ul{
+	list-style: none;
+}
+.footer ul li{
+	float:left;
+	margin: 0 20px;
+}
+.footer ul li a{
+	text-decoration: none;
+	color:#d2b48c;
+	font-size: 15px;
+	
+}
+.footer ul li a:hover{
+	color:aqua;
